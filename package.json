@@ -1,8 +1,8 @@
 {
   "scripts": {
     "start": "webpack serve",
-    "build-dev": "webpack --mode development",
-    "build-prod": "webpack --mode production --config webpack.prod.config.js"
+    "build": "webpack --mode production --config webpack.prod.config.js",
+    "build-dev": "webpack --mode development"
   },
   "dependencies": {
     "aframe": "^1.2.0"
