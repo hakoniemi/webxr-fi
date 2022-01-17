@@ -1,8 +1,9 @@
 {
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack --mode production --config webpack.prod.config.js",
-    "build-dev": "webpack --mode development"
+    "build": "webpack --mode production --config webpack.prod.config.js && yarn copy-assets",
+    "build-dev": "webpack --mode development",
+    "copy-assets": "cp -R ./src/assets ./dist/assets"
   },
   "dependencies": {
     "aframe": "^1.2.0"
