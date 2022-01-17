@@ -1,9 +1,10 @@
 import Assets from './assets';
+import HUD from './hud';
 
 const App = () => {
   const scene = document.createElement('a-scene');
   const createScene = () => {
-    scene.setAttribute('background', 'color: #d0d4d8');
+    scene.setAttribute('background', 'color: #202020');
     document.body.appendChild(scene);
   };
 
@@ -11,6 +12,7 @@ const App = () => {
     createScene();
 
     Assets.init(scene);
+    HUD.init(scene);
   };
 
   return {

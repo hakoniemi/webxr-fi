@@ -6,7 +6,9 @@
     "copy-assets": "cp -R ./src/assets ./dist/assets"
   },
   "dependencies": {
-    "aframe": "^1.2.0"
+    "aframe": "^1.2.0",
+    "cannon-es": "^0.18.0",
+    "three-to-cannon": "^4.0.2"
   },
   "devDependencies": {
     "@types/aframe": "^1.0.5",

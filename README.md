@@ -8,4 +8,4 @@
 ## Build
 
 1. `yarn build-dev` for development build
-2. `yarn build-prod` TBD
+2. `yarn build` for production build (done in Netlify)
